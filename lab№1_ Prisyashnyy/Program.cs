@@ -9,8 +9,8 @@ double G = ((Math.Pow(Math.Cos(Math.Abs(y + x)), 3) - (x + y))) / (Math.Pow(Math
 Console.WriteLine($"G = {G:F2}");
 //учебник "сборник задач по программированию"/тема: Программирование линейных алгоритмов/высокий уровень/вариант_12
 Console.Write("Введите a: ");
-double a = double.Parse(Console.ReadLine());
+int a = int.Parse(Console.ReadLine());
 Console.Write("Введите b: ");
-double b = double.Parse(Console.ReadLine());
-double x = Math.Floor(a / b);
+int b = int.Parse(Console.ReadLine());
+int x = a / b;
 Console.WriteLine($"На отрезке a помешается отрезков b: {x}");
